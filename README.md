@@ -14,6 +14,5 @@ google搜索hugo academic
 
 ## step 3:修改后同步
 `git add .`  
-`git commit -m "remove demo and modify title" .`  
-`git add .`  
+`git commit -m "remove demo and modify title"`    
 `git push -u superman master`  
