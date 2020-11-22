@@ -5,12 +5,15 @@
 google搜索hugo academic
 
 ## step 2
-初始化
+初始化  
 `git init`  
-复制链接
+复制链接  
 `git remote add superman https://github.com/a390177226/zzb.git`  
-把所有的文件pull下来
+把所有的文件pull下来  
 `git pull --rebase superman master`  
 
-## step 3:修改同步
-
+## step 3:修改后同步
+`git add .`  
+`git commit -m "remove demo and modify title" .`  
+`git add .`  
+`git push -u superman master`  
